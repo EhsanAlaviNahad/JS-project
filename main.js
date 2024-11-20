@@ -37,5 +37,13 @@ function myfunc() {
 
 <button type="button" onclick="myfunc()">Try It</button>
 
+<h1>Equations</h1>
+
+<p id="demo2"></p>
+
+<script>
+document.getElementById('demo2').innerHTML = 5 + 6
+</script>
+
 </body>
 </html>
