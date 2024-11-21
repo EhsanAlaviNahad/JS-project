@@ -26,14 +26,14 @@ document.getElementById("demo0").innerHTML = "My First Javascript With the Scrip
 <head>
 <script>
 function myfunc() {
-    document.getElementById("demo1").innerHTML = "Updated"
+    document.getElementById("demo1").innerHTML = "Updated The Text"
 }
 </script>
 </head>
 </body>
 
 <h1>Using The Function Command</h1>
-<p id="demo1" style="font-size: 22px;">Updated Text</p>
+<p id="demo1" style="font-size: 22px;">Text</p>
 
 <button type="button" onclick="myfunc()">Try It</button>
 
@@ -102,6 +102,15 @@ function myfunction() {
 
 <script>
 document.getElementById('demo7').innerHTML = 10.50;
+</script>
+
+<h2>JavaScript Strings</h2>
+<h3>Strings can be written with double or single quotes.</h3>
+
+<p id="demo8"></p>
+
+<script>
+document.getElementById('demo8').innerHTML = 'John Doe';
 </script>
 
 </body>
