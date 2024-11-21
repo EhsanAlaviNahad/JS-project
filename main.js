@@ -80,5 +80,20 @@ a = 5; b = 6; c = a + b;
 document.getElementById('demo4').innerHTML = c;
 </script>
 
+<h2>Code Blocks</h2>
+<h3>JavaScript code blocks are written between { and }</h3>
+
+<button type="button" onclick="myfunction()">click me!</button>
+
+<p id="demo5"></p>
+<p id="demo6"></p>
+
+<script>
+function myfunction() {
+    document.getElementById('demo5').innerHTML = "hello World!";
+    document.getElementById('demo6').innerHTML = "How are you?"
+}
+</script>
+
 </body>
 </html> 
