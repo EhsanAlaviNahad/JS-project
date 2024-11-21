@@ -2,7 +2,7 @@
 <html>
 <body>
 
-<h1>What Can JavaScript Do?</h1>
+<h1 style="color: darkgoldenrod;">What Can JavaScript Do?</h1>
 
 <p id="text0">JavaScript can change HTML content.</p>
 <button type="button" onclick='document.getElementById("text0").innerHTML = "Hello JavaScript!"'>Click Me!</button>
@@ -140,6 +140,13 @@ e = 5 + 6;
 r = e * 10;
 document.getElementById('demo11').innerHTML = r;
 </script>
+
+<h2 style="color: darkblue;">When to Use var, let, or const?</h2>
+<p>1. Always declare variables</p>
+<p>2. Always use const if the value should not be changed</p>
+<p>3. Always use const if the type should not be changed (Arrays and Objects)</p>
+<p>4. Only use let if you can't use const</p>
+<p>5. Only use var if you MUST support old browsers.</p>
 
 </body>
 </html> 
