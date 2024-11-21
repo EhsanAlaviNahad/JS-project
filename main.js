@@ -141,12 +141,26 @@ r = e * 10;
 document.getElementById('demo11').innerHTML = r;
 </script>
 
-<h2 style="color: darkblue;">When to Use var, let, or const?</h2>
+<h2 style="color: darkgoldenrod;">When to Use var, let, or const?</h2>
 <p>1. Always declare variables</p>
 <p>2. Always use const if the value should not be changed</p>
 <p>3. Always use const if the type should not be changed (Arrays and Objects)</p>
 <p>4. Only use let if you can't use const</p>
 <p>5. Only use var if you MUST support old browsers.</p>
+
+<h2 style="color: darkgoldenrod;">When to use JavaScript const</h2>
+<b>Always declare a variable with const when you know that the value should not be changed.</b>
+<p>Use const when you declare</p>
+<p>A new Array</p>
+<p>A new Object</p>
+<p>A new Function</p>
+<p>A new RegExp</p>
+
+<h2 style="color: darkgoldenrod;">JavaScript Operators</h2>
+<p>The Assignment Operator "=" assigns values</p>
+<p>The Addition Operator "+" adds values</p>
+<p>The Multiplication Operator "*" multiplies values</p>
+<p>The Comparison Operator ">" compares values</p>
 
 </body>
 </html> 
