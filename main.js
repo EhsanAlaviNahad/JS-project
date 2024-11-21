@@ -113,5 +113,33 @@ document.getElementById('demo7').innerHTML = 10.50;
 document.getElementById('demo8').innerHTML = 'John Doe';
 </script>
 
+<h2>JavaScript Operators</h2>
+<b>JavaScript uses arithmetic operators to compute values (just like algebra).</b>
+
+<p id="demo9"></p>
+
+<script>
+document.getElementById('demo9').innerHTML = (5 + 6) * 10;
+</script>
+
+<h2>Javascript Expressions</h2>
+
+<p id="demo10"></p>
+
+<script>
+document.getElementById('demo10').innerHTML = "John" + " " + "Doe"; 
+</script>
+
+<h2>JavaScript Keywords</h2>
+
+<b>Let Keyword</b>
+<p id="demo11"></p>
+<script>
+let e, r;
+e = 5 + 6;
+r = e * 10;
+document.getElementById('demo11').innerHTML = r;
+</script>
+
 </body>
 </html> 
