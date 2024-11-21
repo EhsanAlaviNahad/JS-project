@@ -95,5 +95,14 @@ function myfunction() {
 }
 </script>
 
+<h2>JavaScript Numbers</h2>
+<h3>Number can be written with or without decimals.</h3>
+
+<p id="demo7"></p>
+
+<script>
+document.getElementById('demo7').innerHTML = 10.50;
+</script>
+
 </body>
 </html> 
