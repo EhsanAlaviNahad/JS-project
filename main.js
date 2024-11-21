@@ -45,5 +45,10 @@ function myfunc() {
 document.getElementById('demo2').innerHTML = 5 + 6
 </script>
 
+<h1>Equations using Document.write</h1>
+<h3>This should only be used for testing (this removes the entire html document when clicked)</h3>
+
+<button type="button" onclick="document.write(5 + 6)">Try me</button>
+
 </body>
 </html>
