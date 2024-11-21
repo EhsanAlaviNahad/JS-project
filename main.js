@@ -50,5 +50,35 @@ document.getElementById('demo2').innerHTML = 5 + 6
 
 <button type="button" onclick="document.write(5 + 6)">Try me</button>
 
+<script>
+alert(5 + 6);
+</script>
+
+<h2>Print This Page</h2>
+
+<button type="button" onclick="window.print()">Print This Page</button>
+
+<p>A <b>JavaScript program</b> is a list of <b>statements</b> to be executed by a computer.</p>
+<p id="demo3"></p>
+<script>
+let x, y, z; //statment 1
+x = 5;  //statment 2
+y = 6;  //statment 3
+z = x + y;  //statment 4
+document.getElementById('demo3').innerHTML = 
+"The value of z is " + z + ".";
+</script>
+
+<h2>Semicolons</h2>
+<h3>Semicolons separate JavaScript statements.</h3>
+
+
+<p id="demo4"></p>
+<script>
+let a, b, c;
+a = 5; b = 6; c = a + b;
+document.getElementById('demo4').innerHTML = c;
+</script>
+
 </body>
-</html>
+</html> 
