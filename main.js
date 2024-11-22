@@ -185,5 +185,17 @@ let withoutbigint = 1234567891234567891234567890;
 document.getElementById('demo14').innerHTML = withoutbigint;
 </script>
 
+<h2 style="color: crimson;">JavaScript Booleans</h2>
+<b>Booleans can have two values: true or false:</b>
+
+<p id="demo15"></p>
+<script>
+let bool0 = 5;
+let bool1 = 5;
+let bool2 = 6;
+
+document.getElementById("demo15").innerHTML = (bool0 == bool1) + "<br>" + (bool0 == bool2);
+</script>
+
 </body>
 </html> 
