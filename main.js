@@ -222,5 +222,17 @@ typeof "John" + "<br>" +
 typeof "John Doe";
 </script>
 
+<b>Typeof for Numbers</b>
+
+<p id="demo19"></p>
+<script>
+document.getElementById("demo19").innerHTML = 
+typeof 0 + "<br>" + 
+typeof 314 + "<br>" +
+typeof 3.14 + "<br>" +
+typeof (3) + "<br>" +
+typeof (3 + 4);
+</script>
+
 </body>
 </html> 
