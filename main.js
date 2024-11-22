@@ -198,7 +198,6 @@ document.getElementById('demo16').innerHTML = cars[0]
 </script>
 
 <h2 style="color: crimson;">JavaScript Objects</h2>
-<p></p>
 
 <p id="demo17"></p>
 <script>
@@ -210,6 +209,17 @@ const person = {
 };
 
 document.getElementById("demo17").innerHTML = person.fname + " is " + person.age + " years old.";
+</script>
+
+<h2>JavaScript Typeof Operator</h2>
+<p>The typeof operator returns the type of a variable or an expression.</p>
+
+<p id="demo18"></p>
+<script>
+document.getElementById('demo18').innerHTML =
+typeof  "" + "<br>" + 
+typeof "John" + "<br>" + 
+typeof "John Doe";
 </script>
 
 </body>
