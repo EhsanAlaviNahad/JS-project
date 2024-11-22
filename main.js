@@ -197,5 +197,20 @@ const cars = ["Mercedes","Volvo","BMW"]
 document.getElementById('demo16').innerHTML = cars[0] 
 </script>
 
+<h2 style="color: crimson;">JavaScript Objects</h2>
+<p></p>
+
+<p id="demo17"></p>
+<script>
+const person = {
+    fname : "John",
+    lname : "Doe",
+    age : "17",
+    eyecolor : "Blue"
+};
+
+document.getElementById("demo17").innerHTML = person.fname + " is " + person.age + " years old.";
+</script>
+
 </body>
 </html> 
