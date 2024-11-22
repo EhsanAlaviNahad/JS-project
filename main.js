@@ -178,5 +178,12 @@ document.getElementById("demo12").innerHTML = "Is a less than b? " + result
 let bigintnum = BigInt("1234567891234567891234567890");
 document.getElementById('demo13').innerHTML = bigintnum;
 </script>
+<b>Without Bigint:</b>
+<p id="demo14"></p>
+<script>
+let withoutbigint = 1234567891234567891234567890;
+document.getElementById('demo14').innerHTML = withoutbigint;
+</script>
+
 </body>
 </html> 
