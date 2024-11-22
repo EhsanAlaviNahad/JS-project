@@ -162,16 +162,6 @@ document.getElementById('demo11').innerHTML = r;
 <p>The Multiplication Operator "*" multiplies values</p>
 <p>The Comparison Operator ">" compares values</p>
 
-<h2>Comparison</h2>
-<p id="demo12"></p>
-
-<script>
-let text1 = "A";
-let text2 = "B";
-let result = text1 < text2;
-document.getElementById("demo12").innerHTML = "Is a less than b? " + result
-</script>
-
 <h2>BigInt</h2>
 <p id="demo13"></p>
 <script>
@@ -195,6 +185,16 @@ let bool1 = 5;
 let bool2 = 6;
 
 document.getElementById("demo15").innerHTML = (bool0 == bool1) + "<br>" + (bool0 == bool2);
+</script>
+
+<h2 style="color: crimson;">JavaScript Arrays</h2>
+<b>Array indexes are zero-based, which means the first item is [0].</b>
+
+<p id="demo16"></p>
+<script>
+const cars = ["Mercedes","Volvo","BMW"]
+
+document.getElementById('demo16').innerHTML = cars[0] 
 </script>
 
 </body>
