@@ -172,5 +172,11 @@ let result = text1 < text2;
 document.getElementById("demo12").innerHTML = "Is a less than b? " + result
 </script>
 
+<h2>BigInt</h2>
+<p id="demo13"></p>
+<script>
+let bigintnum = BigInt("1234567891234567891234567890");
+document.getElementById('demo13').innerHTML = bigintnum;
+</script>
 </body>
 </html> 
