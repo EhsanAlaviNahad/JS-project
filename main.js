@@ -247,5 +247,10 @@ let result = myfunc2(4, 3)
 document.getElementById("demo20").innerHTML = result;
 </script>
 
+<h2 style="color: darkcyan;">Why Functions?</h2>
+<p>With functions you can reuse code</p>
+<p>You can write code that can be used many times.</p>
+<p>You can use the same code with different arguments, to produce different results.</p>
+
 </body>
 </html> 
