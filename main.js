@@ -235,6 +235,7 @@ typeof (3 + 4);
 </script>
 
 <h2>Javascript Functions</h2>
+<p>Call a function which performs a calculation and returns the result:</p>
 
 <p id="demo20"></p>
 <script>
