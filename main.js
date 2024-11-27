@@ -201,12 +201,7 @@ document.getElementById('demo16').innerHTML = cars[0]
 
 <p id="demo17"></p>
 <script>
-const person = {
-    fname : "John",
-    lname : "Doe",
-    age : "17",
-    eyecolor : "Blue"
-};
+const person = {fname : "John", lname : "Doe", age : "17", eyecolor : "Blue"};
 
 document.getElementById("demo17").innerHTML = person.fname + " is " + person.age + " years old.";
 </script>
