@@ -234,5 +234,17 @@ typeof (3) + "<br>" +
 typeof (3 + 4);
 </script>
 
+<h2>Javascript Functions</h2>
+
+<p id="demo20"></p>
+<script>
+function myfunc2(p1, p2) {
+    return p1 * p2;
+}
+
+let result = myfunc2(4, 3)
+document.getElementById("demo20").innerHTML = result;
+</script>
+
 </body>
 </html> 
