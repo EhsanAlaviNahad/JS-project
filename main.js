@@ -247,7 +247,7 @@ document.getElementById("demo20").innerHTML = result;
 <p>You can write code that can be used many times.</p>
 <p>You can use the same code with different arguments, to produce different results.</p>
 
-<h2>Javascript Object Properties</h2>
+<h2 style="color: darkcyan;">Javascript Object Properties</h2>
 <b>Deleting a Property</b>
 
 <p id="demo21"></p>
@@ -265,7 +265,22 @@ document.getElementById("demo21").innerHTML =
 person1.fname + " is " + person1.age + " years old.";
 </script>
 
+<b>Accessing Nested Objects</b>
 
+<p id="demo22"></p>
+<script>
+const myObj = {
+    name: "John",
+    age: "22",
+    mycars: {
+        car1: "Ford",
+        car2: "BMW",
+        car3: "Fiat"
+    }
+}
+
+document.getElementById('demo22').innerHTML = "John has a " + myObj.mycars.car2
+</script>
 
 </body>
 </html> 
