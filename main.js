@@ -141,14 +141,14 @@ r = e * 10;
 document.getElementById('demo11').innerHTML = r;
 </script>
 
-<h2">When to Use var, let, or const?</h2>
+<h2 style="color: darkgoldenrod;">When to Use var, let, or const?</h2>
 <p>1. Always declare variables</p>
 <p>2. Always use const if the value should not be changed</p>
 <p>3. Always use const if the type should not be changed (Arrays and Objects)</p>
 <p>4. Only use let if you can't use const</p>
 <p>5. Only use var if you MUST support old browsers.</p>
 
-<h2">When to use JavaScript const</h2>
+<h2 style="color: darkgoldenrod;">When to use JavaScript const</h2>
 <b>Always declare a variable with const when you know that the value should not be changed.</b>
 <p>Use const when you declare</p>
 <p>A new Array</p>
@@ -156,7 +156,7 @@ document.getElementById('demo11').innerHTML = r;
 <p>A new Function</p>
 <p>A new RegExp</p>
 
-<h2">JavaScript Operators</h2>
+<h2 style="color: darkgoldenrod;">JavaScript Operators</h2>
 <p>The Assignment Operator "=" assigns values</p>
 <p>The Addition Operator "+" adds values</p>
 <p>The Multiplication Operator "*" multiplies values</p>
@@ -175,7 +175,7 @@ let withoutbigint = 1234567891234567891234567890;
 document.getElementById('demo14').innerHTML = withoutbigint;
 </script>
 
-<h2">JavaScript Booleans</h2>
+<h2 style="color: crimson;">JavaScript Booleans</h2>
 <b>Booleans can have two values: true or false:</b>
 
 <p id="demo15"></p>
@@ -187,7 +187,7 @@ let bool2 = 6;
 document.getElementById("demo15").innerHTML = (bool0 == bool1) + "<br>" + (bool0 == bool2);
 </script>
 
-<h2">JavaScript Arrays</h2>
+<h2 style="color: crimson;">JavaScript Arrays</h2>
 <b>Array indexes are zero-based, which means the first item is [0].</b>
 
 <p id="demo16"></p>
@@ -197,7 +197,7 @@ const cars = ["Mercedes","Volvo","BMW"]
 document.getElementById('demo16').innerHTML = cars[0] 
 </script>
 
-<h2">JavaScript Objects</h2>
+<h2 style="color: crimson;">JavaScript Objects</h2>
 
 <p id="demo17"></p>
 <script>
@@ -242,7 +242,7 @@ let result = myfunc2(4, 3)
 document.getElementById("demo20").innerHTML = result;
 </script>
 
-<h2">Why Functions?</h2>
+<h2 style="color: darkcyan;">Why Functions?</h2>
 <p>With functions you can reuse code</p>
 <p>You can write code that can be used many times.</p>
 <p>You can use the same code with different arguments, to produce different results.</p>
