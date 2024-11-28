@@ -247,5 +247,25 @@ document.getElementById("demo20").innerHTML = result;
 <p>You can write code that can be used many times.</p>
 <p>You can use the same code with different arguments, to produce different results.</p>
 
+<h2>Javascript Object Properties</h2>
+<b>Deleting a Property</b>
+
+<p id="demo21"></p>
+<script>
+const person1 = {
+    fname: "John",
+    lname: "Doe",
+    age: 50,
+    eyecolor: "Blue"
+};
+
+delete person1.age;
+
+document.getElementById("demo21").innerHTML =
+person1.fname + " is " + person1.age + " years old.";
+</script>
+
+
+
 </body>
 </html> 
