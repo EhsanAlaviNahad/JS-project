@@ -314,5 +314,19 @@ for (let x in person3) {
 document.getElementById("demo24").innerHTML = text;
 </script>
 
+<b>The Object.entries() Method</b>
+
+<p id="demo25"></p>
+<script>
+    const fruits = {Bananas:300, Oranges:200, Apples:500}; 
+    
+    let text1 = "";
+    for (let [fruit, amount] of Object.entries(fruits)) {
+      text1 += fruit + ": " + amount + "<br>";
+    }
+    
+    document.getElementById("demo25").innerHTML = text1;
+</script>
+
 </body>
 </html> 
