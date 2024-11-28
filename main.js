@@ -282,5 +282,37 @@ const myObj = {
 document.getElementById('demo22').innerHTML = "John has a " + myObj.mycars.car2
 </script>
 
+<h2 style="color: darkcyan;">Javascript Display Objects</h2>
+
+<p id="demo23"></p>
+
+<script>
+const person2 = {
+    name: "John",
+    age: 30,
+    city: "New York"
+}
+//display object
+document.getElementById('demo23').innerHTML = person2;
+</script>
+
+<h2>More Javascript Objects</h2>
+
+<p id="demo24"></p>
+<script>
+const person3 = {
+    name: "John",
+    age: 30,
+    city: "New York"
+};
+
+let text = "";
+for (let x in person3) {
+    text += person3[x] + " ";
+};
+
+document.getElementById("demo24").innerHTML = text;
+</script>
+
 </body>
 </html> 
