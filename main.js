@@ -328,7 +328,7 @@ document.getElementById("demo24").innerHTML = text;
     document.getElementById("demo25").innerHTML = text1;
 </script>
 
-<h2>Uppercase</h2>
+<h2 style="color: darkcyan;">JavaScript Object Constructors</h2>
 <p id="demo26"></p>
 <script>
 function Person(first, last, age, eye) {
@@ -339,9 +339,10 @@ function Person(first, last, age, eye) {
 }
 
 const myfriend = new Person("John", "Doe", "16", "Blue");
+const myfriend2 = new Person("Sam", "Doe", "14", "Brown");
 
 document.getElementById('demo26').innerHTML = 
-"My Friend is " + myfriend.age + "."
+"My Friend is " + myfriend.age + "." + " " + "My Other Friend is " + myfriend2.age + "."
 </script>
 
 </body>
