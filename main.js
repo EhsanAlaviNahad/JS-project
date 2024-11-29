@@ -336,13 +336,14 @@ function Person(first, last, age, eye) {
     this.lastname = last;
     this.age = age;
     this.eyecolor = eye;
+    this.nationality = "English";
 }
 
 const myfriend = new Person("John", "Doe", "16", "Blue");
 const myfriend2 = new Person("Sam", "Doe", "14", "Brown");
 
 document.getElementById('demo26').innerHTML = 
-"My Friend is " + myfriend.age + "." + " " + "My Other Friend is " + myfriend2.age + "."
+"My Friend is " + myfriend.age + "." + " " + "My Other Friend is " + myfriend2.age + "." + "They are " + " " + myfriend2.nationality
 </script>
 
 </body>
