@@ -328,5 +328,21 @@ document.getElementById("demo24").innerHTML = text;
     document.getElementById("demo25").innerHTML = text1;
 </script>
 
+<h2>Uppercase</h2>
+<p id="demo26"></p>
+<script>
+function Person(first, last, age, eye) {
+    this.firstname = first;
+    this.lastname = last;
+    this.age = age;
+    this.eyecolor = eye;
+}
+
+const myfriend = new Person("John", "Doe", "16", "Blue");
+
+document.getElementById('demo26').innerHTML = 
+"My Friend is " + myfriend.age + "."
+</script>
+
 </body>
 </html> 
