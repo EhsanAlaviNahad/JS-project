@@ -346,5 +346,10 @@ document.getElementById('demo26').innerHTML =
 "My Friend is " + myfriend.age + "." + " " + "My Other Friend is " + myfriend2.age + "." + "They are " + " " + myfriend2.nationality
 </script>
 
+<h2>JavaScript HTML Events</h2>
+<h4>The onclick Attribute</h4>
+
+<button onclick="this.innerHTML=Date()">The time is?</button>
+
 </body>
 </html> 
