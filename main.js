@@ -351,5 +351,8 @@ document.getElementById('demo26').innerHTML =
 
 <button onclick="this.innerHTML=Date()">The time is?</button>
 
+<h2>JavaScript onmouseover</h2>
+<button onmouseover="this.innerHTML=Date()">The time is?</button>
+
 </body>
 </html> 
