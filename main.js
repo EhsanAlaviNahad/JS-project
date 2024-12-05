@@ -392,5 +392,20 @@ document.getElementById('demo29').innerHTML = text2.length;
 document.getElementById('demo30').innerHTML =
 "Hello World!";
 </script>
+
+<h2>JavaScript Template Strings</h2>
+
+<p id="demo31"></p>
+<script>
+let text3 = 
+
+`The quick
+brown fox
+jumps over
+the lazy dog`;
+
+document.getElementById('demo31').innerHTML = text3;
+</script>
+
 </body>
 </html>
