@@ -380,9 +380,17 @@ answer1 + "<br>" + answer2 + "<br>" + answer3;
 <p id="demo29"></p>
 <script>
 let text2 = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-let length = text.length; 
+let length = text2.length; 
 
 document.getElementById('demo29').innerHTML = text2.length;
+</script>
+
+<h2>JavaScript Statements</h2>
+
+<p id="demo30"></p>
+<script>
+document.getElementById('demo30').innerHTML =
+"Hello World!";
 </script>
 </body>
 </html>
