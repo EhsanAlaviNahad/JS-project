@@ -374,5 +374,15 @@ let answer3 = 'He is called "Johnny"';
 document.getElementById('demo28').innerHTML = 
 answer1 + "<br>" + answer2 + "<br>" + answer3;
 </script>
+
+<b>String Length</b>
+
+<p id="demo29"></p>
+<script>
+let text2 = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+let length = text.length; 
+
+document.getElementById('demo29').innerHTML = text2.length;
+</script>
 </body>
 </html>
