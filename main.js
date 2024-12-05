@@ -359,8 +359,8 @@ document.getElementById('demo26').innerHTML =
 <p id="demo27"></p>
 <script>
 let carname1 = "BMW";   //double quotes
-let carname2 = 'Pagani' //single quotes
-document.getElementById("demo27").innerHTML = carname1 + " " + carname2;
+let carname2 = 'Pagani'; //single quotes
+document.getElementById("demo27").innerHTML = carname1 + " " + "&" + " " + carname2;
 </script>
 
 </body>
