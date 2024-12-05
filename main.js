@@ -122,6 +122,15 @@ var text = "HELLO WORLD";
 document.getElementById('demo35').innerHTML = text.charAt(0);
 </script>
 
+<h3>The charCodeAt() Method</h3>
+<p>The charCodeAt() method returns the unicode of the character at a given position in a string:</p>
+
+<p id="demo37"></p>
+<script>
+let text7 = "HELLO WORLD";
+document.getElementById("demo37").innerHTML = text7.charCodeAt(0);
+</script>
+
 <h2>JavaScript Operators</h2>
 <b>JavaScript uses arithmetic operators to compute values (just like algebra).</b>
 
