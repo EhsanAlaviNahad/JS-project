@@ -407,5 +407,16 @@ the lazy dog`;
 document.getElementById('demo31').innerHTML = text3;
 </script>
 
+<h2>JavaScript Objects</h2>
+
+<p id="demo32"></p>
+<script>
+let text4 = "John";     // text4 is a String
+let text5 = new String("John");     //text5 is a Object
+
+document.getElementById('demo32').innerHTML = 
+typeof text4 + "<br>" + typeof text5;
+</script>
+
 </body>
 </html>
