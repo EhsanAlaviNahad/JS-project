@@ -410,12 +410,15 @@ document.getElementById('demo31').innerHTML = text3;
 <h2>JavaScript Objects</h2>
 
 <p id="demo32"></p>
+<p id="demo33"></p>
 <script>
 let text4 = "John";     // text4 is a String
 let text5 = new String("John");     //text5 is a Object
 
 document.getElementById('demo32').innerHTML = 
 typeof text4 + "<br>" + typeof text5;
+
+document.getElementById('demo33').innerHTML = (text4 == text5);     //this shows that "Strings" & "Objects" aren't the same
 </script>
 
 </body>
