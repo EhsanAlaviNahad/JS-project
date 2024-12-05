@@ -113,6 +113,15 @@ document.getElementById('demo7').innerHTML = 10.50;
 document.getElementById('demo8').innerHTML = 'John Doe';
 </script>
 
+<h3>The charAt() Method</h3>
+<p>The charAt() method returns the character at a given position in a string:</p>
+
+<p id="demo35"></p>
+<script>
+var text = "HELLO WORLD";
+document.getElementById('demo35').innerHTML = text.charAt(0);
+</script>
+
 <h2>JavaScript Operators</h2>
 <b>JavaScript uses arithmetic operators to compute values (just like algebra).</b>
 
