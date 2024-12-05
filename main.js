@@ -354,5 +354,13 @@ document.getElementById('demo26').innerHTML =
 <h2>JavaScript onmouseover</h2>
 <button onmouseover="this.innerHTML=Date()">The time is?</button>
 
+<h2>Javascript Strings</h2>
+
+<p id="demo27"></p>
+<script>
+let text2 = "Hello World";
+document.getElementById("demo27").innerHTML = text2;
+</script>
+
 </body>
-</html> 
+</html>
