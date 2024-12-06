@@ -2,6 +2,11 @@
 <html>
 <body>
 
+<center>
+<img src="https://logos-world.net/wp-content/uploads/2023/02/JavaScript-Logo.png" width="220" height="130" alt="HTML">
+</center>
+<hr>
+
 <h1 style="color: darkgoldenrod;">What Can JavaScript Do?</h1>
 
 <p id="text0">JavaScript can change HTML content.</p>
@@ -16,6 +21,7 @@
 <p id="Text1">Or maybe lets see hidden HTML Elements..</p>
 <p id="e3" style="display:none">Hello JavaScript!</p>
 <button type="button" onclick="document.getElementById('e3').style.display='block'">Click me too!</button>
+<hr>
 
 <h1>Script Syntax</h1>
 <p id="demo0"></p>
@@ -31,11 +37,13 @@ function myfunc() {
 </script>
 </head>
 </body>
+<hr>
 
 <h1>Using The Function Command</h1>
 <p id="demo1" style="font-size: 22px;">Text</p>
 
 <button type="button" onclick="myfunc()">Try It</button>
+<hr>
 
 <h1>Equations</h1>
 
@@ -44,15 +52,12 @@ function myfunc() {
 <script>
 document.getElementById('demo2').innerHTML = 5 + 6
 </script>
+<hr>
 
 <h1>Equations using Document.write</h1>
 <h3>This should only be used for testing (this removes the entire html document when clicked)</h3>
 
 <button type="button" onclick="document.write(5 + 6)">Try me</button>
-
-<script>
-alert(5 + 6);
-</script>
 
 <h2>Print This Page</h2>
 
@@ -68,10 +73,10 @@ z = x + y;  //statment 4
 document.getElementById('demo3').innerHTML = 
 "The value of z is " + z + ".";
 </script>
+<hr>
 
 <h2>Semicolons</h2>
 <h3>Semicolons separate JavaScript statements.</h3>
-
 
 <p id="demo4"></p>
 <script>
@@ -79,6 +84,7 @@ let a, b, c;
 a = 5; b = 6; c = a + b;
 document.getElementById('demo4').innerHTML = c;
 </script>
+<hr>
 
 <h2>Code Blocks</h2>
 <h3>JavaScript code blocks are written between { and }</h3>
@@ -94,6 +100,7 @@ function myfunction() {
     document.getElementById('demo6').innerHTML = "How are you?"
 }
 </script>
+<hr>
 
 <h2>JavaScript Numbers</h2>
 <h3>Number can be written with or without decimals.</h3>
@@ -103,6 +110,7 @@ function myfunction() {
 <script>
 document.getElementById('demo7').innerHTML = 10.50;
 </script>
+<hr>
 
 <h2>JavaScript Strings</h2>
 <h3>Strings can be written with double or single quotes.</h3>
@@ -112,6 +120,7 @@ document.getElementById('demo7').innerHTML = 10.50;
 <script>
 document.getElementById('demo8').innerHTML = 'John Doe';
 </script>
+<hr>
 
 <h3>The charAt() Method</h3>
 <p>The charAt() method returns the character at a given position in a string:</p>
@@ -130,6 +139,7 @@ document.getElementById('demo35').innerHTML = text.charAt(0);
 let text7 = "HELLO WORLD";
 document.getElementById("demo37").innerHTML = text7.charCodeAt(0);
 </script>
+<hr>
 
 <h2>JavaScript Operators</h2>
 <b>JavaScript uses arithmetic operators to compute values (just like algebra).</b>
@@ -139,6 +149,7 @@ document.getElementById("demo37").innerHTML = text7.charCodeAt(0);
 <script>
 document.getElementById('demo9').innerHTML = (5 + 6) * 10;
 </script>
+<hr>
 
 <h2>Javascript Expressions</h2>
 
@@ -147,6 +158,7 @@ document.getElementById('demo9').innerHTML = (5 + 6) * 10;
 <script>
 document.getElementById('demo10').innerHTML = "John" + " " + "Doe"; 
 </script>
+<hr>
 
 <h2>JavaScript Keywords</h2>
 
@@ -192,6 +204,7 @@ document.getElementById('demo13').innerHTML = bigintnum;
 let withoutbigint = 1234567891234567891234567890;
 document.getElementById('demo14').innerHTML = withoutbigint;
 </script>
+<hr>
 
 <h2 style="color: darkcyan;">JavaScript Booleans</h2>
 <b>Booleans can have two values: true or false:</b>
@@ -223,6 +236,7 @@ const person = {fname : "John", lname : "Doe", age : "17", eyecolor : "Blue"};
 
 document.getElementById("demo17").innerHTML = person.fname + " is " + person.age + " years old.";
 </script>
+<hr>
 
 <h2>JavaScript Typeof Operator</h2>
 <p>The typeof operator returns the type of a variable or an expression.</p>
@@ -246,6 +260,7 @@ typeof 3.14 + "<br>" +
 typeof (3) + "<br>" +
 typeof (3 + 4);
 </script>
+<hr>
 
 <h2>Javascript Functions</h2>
 <p>Call a function which performs a calculation and returns the result:</p>
@@ -259,11 +274,13 @@ function myfunc2(p1, p2) {
 let result = myfunc2(4, 3)
 document.getElementById("demo20").innerHTML = result;
 </script>
+<hr>
 
 <h2 style="color: darkcyan;">Why Functions?</h2>
 <p>With functions you can reuse code</p>
 <p>You can write code that can be used many times.</p>
 <p>You can use the same code with different arguments, to produce different results.</p>
+<hr>
 
 <h2 style="color: darkcyan;">Javascript Object Properties</h2>
 <b>Deleting a Property</b>
@@ -299,6 +316,7 @@ const myObj = {
 
 document.getElementById('demo22').innerHTML = "John has a " + myObj.mycars.car2
 </script>
+<hr>
 
 <h2 style="color: darkcyan;">Javascript Display Objects</h2>
 
@@ -313,6 +331,7 @@ const person2 = {
 //display object
 document.getElementById('demo23').innerHTML = person2;
 </script>
+<hr>
 
 <h2>More Javascript Objects</h2>
 
@@ -345,6 +364,7 @@ document.getElementById("demo24").innerHTML = text;
     
     document.getElementById("demo25").innerHTML = text1;
 </script>
+<hr>
 
 <h2 style="color: darkcyan;">JavaScript Object Constructors</h2>
 <p id="demo26"></p>
@@ -363,6 +383,7 @@ const myfriend2 = new Person("Sam", "Doe", "14", "Brown");
 document.getElementById('demo26').innerHTML = 
 "My Friend is " + myfriend.age + "." + " " + "My Other Friend is " + myfriend2.age + "." + "They are " + " " + myfriend2.nationality
 </script>
+<hr>
 
 <h2>JavaScript HTML Events</h2>
 <h4>The onclick Attribute</h4>
@@ -371,6 +392,7 @@ document.getElementById('demo26').innerHTML =
 
 <h2>JavaScript onmouseover</h2>
 <button onmouseover="this.innerHTML=Date()">The time is?</button>
+<hr>
 
 <h2>Javascript Strings</h2>
 
@@ -380,6 +402,7 @@ let carname1 = "BMW";   //double quotes
 let carname2 = 'Pagani'; //single quotes
 document.getElementById("demo27").innerHTML = carname1 + " " + "&" + " " + carname2;
 </script>
+<hr>
 
 <h3>Quotes Inside Quotes</h3>
 
@@ -392,6 +415,7 @@ let answer3 = 'He is called "Johnny"';
 document.getElementById('demo28').innerHTML = 
 answer1 + "<br>" + answer2 + "<br>" + answer3;
 </script>
+<hr>
 
 <b>String Length</b>
 
@@ -402,6 +426,7 @@ let length = text2.length;
 
 document.getElementById('demo29').innerHTML = text2.length;
 </script>
+<hr>
 
 <h2>JavaScript Statements</h2>
 
@@ -410,6 +435,7 @@ document.getElementById('demo29').innerHTML = text2.length;
 document.getElementById('demo30').innerHTML =
 "Hello World!";
 </script>
+<hr>
 
 <h2>JavaScript Template Strings</h2>
 
@@ -424,6 +450,7 @@ the lazy dog`;
 
 document.getElementById('demo31').innerHTML = text3;
 </script>
+<hr>
 
 <h2>JavaScript Objects</h2>
 
